@@ -1,0 +1,13 @@
+.*
+*.log
+*.zip
+x64/**
+debug/**
+release/**
+library/x64/**
+library/debug/**
+library/release/**
+tests/x64/**
+tests/debug/**
+tests/release/**
+!.gitignore

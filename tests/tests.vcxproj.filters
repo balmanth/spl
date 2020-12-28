@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="library">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="library\metadata">
+      <UniqueIdentifier>{c12de12e-403c-49b9-aa01-f8ebfae1bb98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\pointers">
+      <UniqueIdentifier>{562feef1-6868-402e-9bd2-0363067a7538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\strings">
+      <UniqueIdentifier>{1329fd3c-3f9a-45d5-a7bf-020ec9c246c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\arrays">
+      <UniqueIdentifier>{19b61db9-dd31-4fe7-a80b-b047e25db26b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\prefixtrees">
+      <UniqueIdentifier>{4c0143be-7a3f-4bf7-a002-672da622ca8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\types">
+      <UniqueIdentifier>{10c124f4-a8f4-43da-9fe9-3752ab2e23c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\core">
+      <UniqueIdentifier>{a736fba9-a8f1-4baa-bed6-99ddc7f515eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\hash_tables">
+      <UniqueIdentifier>{78256c78-0281-4ef1-b6df-6d75c3af124e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="library\metadata\character.cpp">
+      <Filter>library\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="library\metadata\constant.cpp">
+      <Filter>library\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="library\metadata\decimal.cpp">
+      <Filter>library\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="library\metadata\device.cpp">
+      <Filter>library\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="library\metadata\integer.cpp">
+      <Filter>library\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="library\metadata\pointer.cpp">
+      <Filter>library\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="library\metadata\reference.cpp">
+      <Filter>library\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="library\pointers\shared.cpp">
+      <Filter>library\pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="library\pointers\unique.cpp">
+      <Filter>library\pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="library\pointers\weak.cpp">
+      <Filter>library\pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="library\prefixtrees\map.cpp">
+      <Filter>library\prefixtrees</Filter>
+    </ClCompile>
+    <ClCompile Include="library\prefixtrees\set.cpp">
+      <Filter>library\prefixtrees</Filter>
+    </ClCompile>
+    <ClCompile Include="library\types\enable.cpp">
+      <Filter>library\types</Filter>
+    </ClCompile>
+    <ClCompile Include="library\types\same.cpp">
+      <Filter>library\types</Filter>
+    </ClCompile>
+    <ClCompile Include="library\types\select.cpp">
+      <Filter>library\types</Filter>
+    </ClCompile>
+    <ClCompile Include="library\types\pick.cpp">
+      <Filter>library\types</Filter>
+    </ClCompile>
+    <ClCompile Include="library\core\pair.cpp">
+      <Filter>library\core</Filter>
+    </ClCompile>
+    <ClCompile Include="library\core\pack.cpp">
+      <Filter>library\core</Filter>
+    </ClCompile>
+    <ClCompile Include="library\core\tuple.cpp">
+      <Filter>library\core</Filter>
+    </ClCompile>
+    <ClCompile Include="library\metadata\class.cpp">
+      <Filter>library\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="library\strings\ansi_string.cpp">
+      <Filter>library\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="library\strings\wide_string.cpp">
+      <Filter>library\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="library\types\base_of.cpp">
+      <Filter>library\types</Filter>
+    </ClCompile>
+    <ClCompile Include="library\arrays\array_list.cpp">
+      <Filter>library\arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="library\hash_tables\hash_map.cpp">
+      <Filter>library\hash_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="library\hash_tables\hash_set.cpp">
+      <Filter>library\hash_tables</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="library\mock.hpp">
+      <Filter>library</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

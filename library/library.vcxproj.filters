@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{a9fb639d-bae3-49e5-884a-c5c2d205356c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\core">
+      <UniqueIdentifier>{95037f65-860d-4d8d-bdcf-d76c12c52737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\metadata">
+      <UniqueIdentifier>{15b3c734-1fd3-441a-84d7-3201d3ff1fe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\pointers">
+      <UniqueIdentifier>{140b9380-7f3c-4276-8785-f49d4b6a10fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\interfaces">
+      <UniqueIdentifier>{7c20255d-86c3-48be-aad9-9dfb008b6a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\exceptions">
+      <UniqueIdentifier>{e64677b9-1bf8-4c30-a6c9-56d63c074130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\math">
+      <UniqueIdentifier>{3d352b4b-ac8c-470a-8617-ea692486cdad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\strings">
+      <UniqueIdentifier>{4ea31db4-b5b8-4d2c-98b7-a9a9a8e2ee91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\arrays">
+      <UniqueIdentifier>{fd246e98-2c16-42b8-93f5-917c33f99eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\prefixtrees">
+      <UniqueIdentifier>{28aab8a8-5cc4-4667-b883-6dd276529c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\types">
+      <UniqueIdentifier>{9f8fd6f9-24a3-454d-a752-ee909a5a4505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\hashes">
+      <UniqueIdentifier>{9f7818d3-9f88-487b-8d4a-7e0083efa502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\hash_tables">
+      <UniqueIdentifier>{cac02e3d-f650-4afa-b6c8-67f6b5bec3c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\core\move.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\swap.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\compare.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\np2.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Core\sort.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\types.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\metadata\character.hpp">
+      <Filter>header\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="header\metadata\constant.hpp">
+      <Filter>header\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="header\metadata\decimal.hpp">
+      <Filter>header\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="header\metadata\device.hpp">
+      <Filter>header\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="header\metadata\integer.hpp">
+      <Filter>header\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="header\metadata\pointer.hpp">
+      <Filter>header\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="header\metadata\reference.hpp">
+      <Filter>header\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="header\pointers\types.hpp">
+      <Filter>header\pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\pointers\shared.hpp">
+      <Filter>header\pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\pointers\manager.hpp">
+      <Filter>header\pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\pointers\unique.hpp">
+      <Filter>header\pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\pointers\weak.hpp">
+      <Filter>header\pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="header\metadata.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\pointers.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Core\pair.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\interfaces\iterable.hpp">
+      <Filter>header\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="header\interfaces\iterator.hpp">
+      <Filter>header\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="header\interfaces\list.hpp">
+      <Filter>header\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="header\interfaces\map.hpp">
+      <Filter>header\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="header\interfaces\set.hpp">
+      <Filter>header\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\interfaces.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\exceptions.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\interfaces\exception.hpp">
+      <Filter>header\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="header\math\max.hpp">
+      <Filter>header\math</Filter>
+    </ClInclude>
+    <ClInclude Include="header\math\min.hpp">
+      <Filter>header\math</Filter>
+    </ClInclude>
+    <ClInclude Include="header\math.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\exceptions\key.hpp">
+      <Filter>header\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="header\exceptions\index.hpp">
+      <Filter>header\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\pack.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\interfaces\string.hpp">
+      <Filter>header\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="header\strings\types.hpp">
+      <Filter>header\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="header\strings.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\arrays\types.hpp">
+      <Filter>header\arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="header\arrays.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\prefixtrees\base.hpp">
+      <Filter>header\prefixtrees</Filter>
+    </ClInclude>
+    <ClInclude Include="header\prefixtrees\types.hpp">
+      <Filter>header\prefixtrees</Filter>
+    </ClInclude>
+    <ClInclude Include="header\prefixtrees.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\prefixtrees\node.hpp">
+      <Filter>header\prefixtrees</Filter>
+    </ClInclude>
+    <ClInclude Include="header\prefixtrees\map.hpp">
+      <Filter>header\prefixtrees</Filter>
+    </ClInclude>
+    <ClInclude Include="header\prefixtrees\set.hpp">
+      <Filter>header\prefixtrees</Filter>
+    </ClInclude>
+    <ClInclude Include="header\exceptions\argument.hpp">
+      <Filter>header\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="header\types\select.hpp">
+      <Filter>header\types</Filter>
+    </ClInclude>
+    <ClInclude Include="header\types\enable.hpp">
+      <Filter>header\types</Filter>
+    </ClInclude>
+    <ClInclude Include="header\types\pick.hpp">
+      <Filter>header\types</Filter>
+    </ClInclude>
+    <ClInclude Include="header\types\same.hpp">
+      <Filter>header\types</Filter>
+    </ClInclude>
+    <ClInclude Include="header\types.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\tuple.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\copy.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\metadata\class.hpp">
+      <Filter>header\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="header\interfaces\hash.hpp">
+      <Filter>header\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hashes\fnv1.hpp">
+      <Filter>header\hashes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hashes.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\interfaces\comparable.hpp">
+      <Filter>header\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="header\exceptions\operation.hpp">
+      <Filter>header\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\forward.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\strings\ansi_string.hpp">
+      <Filter>header\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="header\strings\basic_string.hpp">
+      <Filter>header\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="header\strings\string_iterator.hpp">
+      <Filter>header\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="header\strings\wide_string.hpp">
+      <Filter>header\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="header\types\base_of.hpp">
+      <Filter>header\types</Filter>
+    </ClInclude>
+    <ClInclude Include="header\arrays\basic_array.hpp">
+      <Filter>header\arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="header\arrays\array_list.hpp">
+      <Filter>header\arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="header\arrays\array_iterator.hpp">
+      <Filter>header\arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hash_tables\basic_table.hpp">
+      <Filter>header\hash_tables</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hash_tables\entry_iterator.hpp">
+      <Filter>header\hash_tables</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hash_tables\hash_entry.hpp">
+      <Filter>header\hash_tables</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hash_tables\hash_function.hpp">
+      <Filter>header\hash_tables</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hash_tables\hash_map.hpp">
+      <Filter>header\hash_tables</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hash_tables\hash_set.hpp">
+      <Filter>header\hash_tables</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hash_tables\types.hpp">
+      <Filter>header\hash_tables</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hash_tables.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
